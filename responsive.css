@@ -1,0 +1,19 @@
+@media screen and (max-width: 992px) {
+    i.bx.bx-menu { display: block; cursor: pointer; }
+    .menu-ul { position: fixed; width: 250px; right: 0px; height: 100vh; margin-right: -270px; display: flex; flex-direction: column; transition: all 0.3s ease 0s; padding: 10px 0px; margin-top: 20px; border-radius: 10px; background-color: white; }
+    ul.menu-ul.active { margin-right: 0px; }
+    .right-ul { display: none !important; }
+  }
+  @media screen and (max-width: 767px) {
+    .banner { height: auto; }
+    .banner-image img { margin-top: 30px; }
+  }
+  @media screen and (max-width: 500px) {
+    .review-row {display: initial;justify-content: space-between;align-items: center;text-align: center;margin-top: 15px;}
+    ul.rv-star { display: flex; justify-content: center; }
+    .cp-logo { align-items: center; text-align: center; }
+  }
+  @media screen and (max-width: 575px) {
+    .company-log { text-align: center; }
+  }
+  
